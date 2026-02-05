@@ -1,85 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CBC News | Global Reporting</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f2f2f2;
-  line-height: 1.6;
-}
-header {
-  background: #b30000;
-  color: white;
-  padding: 25px;
-}
-header h1 {
-  margin: 0;
-}
-header p {
-  margin: 5px 0 0;
-  font-size: 14px;
-}
-nav {
-  background: #222;
-  padding: 12px;
-  text-align: center;
-}
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
-}
-.article {
-  background: white;
-  padding: 25px;
-  margin-bottom: 25px;
-}
-.article img {
-  width: 100%;
-  margin: 15px 0;
-}
-button {
-  background: #b30000;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  cursor: pointer;
-}
-button:hover {
-  background: #800000;
-}
-footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-}
-.small {
-  color: #666;
-  font-size: 13px;
-}
-</style>
+  <meta charset="UTF-8">
+  <title>CBC News | Breaking & In-Depth Coverage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #b30000;
+      color: white;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+
+    .headline {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .intro {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .main-image {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .article p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .quote {
+      background: #f9f9f9;
+      border-left: 5px solid #b30000;
+      padding: 15px;
+      margin: 20px 0;
+      font-style: italic;
+    }
+
+    .buttons {
+      margin: 25px 0;
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      background: #b30000;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .buttons button:hover {
+      background: #900000;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin: 30px 0;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    section {
+      margin-top: 40px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #ffcccc;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>CBC News</h1>
-  <p>Trusted Reporting on Global Events</p>
+  <h1>CBC NEWS</h1>
+  <p>Trusted Reporting. Global Perspective.</p>
 </header>
 
 <nav>
@@ -91,92 +149,95 @@ footer {
 
 <div class="container">
 
-  <!-- INTRO -->
+  <!-- Headline -->
+  <h2 class="headline">Major Infrastructure Project Set to Transform Urban Life in 2026</h2>
+
+  <!-- Introduction -->
+  <p class="intro">
+    A newly announced infrastructure initiative is expected to significantly change how millions of people live, work, and travel across major cities.
+    Government officials say the project aims to improve sustainability, reduce congestion, and create long-term economic benefits.
+  </p>
+
+  <!-- Main Image -->
+  <img class="main-image" src="https://picsum.photos/1200/500?random=1" alt="City development">
+
+  <!-- Main News Story -->
   <div class="article">
-    <h2>Welcome to CBC News</h2>
     <p>
-      CBC News is an independent news website created as a school project to explore
-      how news organizations report global events. This site presents realistic,
-      well-structured news stories covering world affairs, politics, and social issues.
+      Officials confirmed on Thursday that a multi-billion-dollar infrastructure plan will begin construction early next year.
+      The project, which will span several urban regions, focuses on modern transportation systems, renewable energy integration,
+      and upgraded public facilities.
+    </p>
+
+    <p>
+      According to the Ministry of Development, the initiative will involve collaboration between government agencies,
+      private companies, and international partners. Construction is scheduled to begin in March 2026, with the first phase
+      expected to be completed within three years.
+    </p>
+
+    <p>
+      Residents in affected areas have expressed mixed reactions. While many welcome the promise of new jobs and improved
+      infrastructure, others are concerned about temporary disruptions and rising housing costs during the construction period.
+    </p>
+
+    <!-- Quote -->
+    <div class="quote">
+      “This project represents a once-in-a-generation opportunity to rebuild our cities for the future,” said urban planning expert
+      Dr. Michael Chen. “If managed correctly, it could set a global standard for sustainable development.”
+    </div>
+
+    <p>
+      Authorities emphasized that environmental impact assessments have already been conducted and that strict regulations
+      will be enforced to minimize ecological damage. Public consultations will continue throughout the planning stages.
     </p>
   </div>
 
-  <!-- MAIN FAKE NEWS STORY -->
-  <div class="article">
-    <h2>International Leaders Meet to Address Rising Global Challenges</h2>
-    <p class="small">By CBC News Staff | March 2026 | Geneva, Switzerland</p>
-
-    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
-
-    <p>
-      World leaders from over 40 countries gathered in Geneva this week to discuss
-      growing global challenges, including climate change, economic instability,
-      and international security concerns. The summit was organized by international
-      organizations aiming to encourage cooperation between nations.
-    </p>
-
-    <p>
-      According to officials, the meeting focused on finding long-term solutions rather
-      than short-term political gains. Representatives emphasized the importance of
-      communication, compromise, and shared responsibility.
-    </p>
-
-    <p>
-      “Global problems require global solutions,” said Dr. Elena Morris, a political
-      analyst invited to the summit. “No single country can solve these issues alone.”
-    </p>
-
-    <p>
-      Experts believe the discussions could influence future policies related to
-      environmental protection and economic recovery.
-    </p>
-
-    <button onclick="alert('This button would normally lead to the full article page.')">
-      Read Full Story
-    </button>
+  <!-- Buttons -->
+  <div class="buttons">
+    <button onclick="alert('You will receive future updates on this story.')">Follow This Story</button>
+    <button onclick="alert('Thank you for sharing this article.')">Share Article</button>
   </div>
 
-  <!-- SUPPORTING STORY 1 -->
-  <div class="article">
-    <h2>Technology Continues to Shape Modern Education</h2>
-    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1">
-    <p>
-      Schools around the world are increasingly using digital tools to improve learning.
-      Online platforms, artificial intelligence, and interactive lessons are becoming
-      more common in classrooms.
-    </p>
-    <p>
-      While many educators support these changes, some experts warn that technology
-      should support teachers, not replace them.
-    </p>
-    <button onclick="alert('This would open the education news section.')">
-      Learn More
-    </button>
+  <!-- Images -->
+  <div class="images">
+    <img src="https://picsum.photos/600/400?random=2">
+    <img src="https://picsum.photos/600/400?random=3">
+    <img src="https://picsum.photos/600/400?random=4">
   </div>
 
-  <!-- SUPPORTING STORY 2 -->
-  <div class="article">
-    <h2>Public Health Experts Emphasize Mental Wellbeing</h2>
-    <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb">
+  <!-- About Us -->
+  <section>
+    <h3>About Us</h3>
     <p>
-      Mental health awareness has become a major focus in recent years. Health experts
-      stress the importance of balancing academic pressure, work responsibilities,
-      and personal life.
+      CBC News is a digital news platform dedicated to delivering accurate, timely, and in-depth reporting on global events.
+      Our team consists of student journalists and editors committed to ethical journalism and factual storytelling.
     </p>
+  </section>
+
+  <!-- Sources -->
+  <section>
+    <h3>Sources</h3>
+    <ul>
+      <li>Urban Development Ministry Briefing</li>
+      <li>International Infrastructure Review</li>
+      <li>Expert Interview – Dr. Michael Chen</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h3>Contact & Feedback</h3>
+    <p>Email: feedback@cbcnews.example</p>
     <p>
-      Governments and schools are being encouraged to provide more mental health support
-      services.
+      External Reference:
+      <a href="https://www.bbc.com/news" target="_blank">BBC News</a>
     </p>
-    <button onclick="alert('This button would link to health resources.')">
-      View Resources
-    </button>
-  </div>
+  </section>
 
 </div>
 
 <footer>
-  <p>© 2026 CBC News | Educational Use Only</p>
-  <p class="small">This website is a student project and does not publish real-time news.</p>
+  © 2026 CBC News • Educational Project
 </footer>
 
 </body>
